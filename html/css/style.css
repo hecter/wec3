@@ -1,0 +1,42 @@
+
+/**
+*@name:		Style.css
+*@author:	
+*@Licencia:	http://opensource.org/licenses/gpl-license.php  GNU Public License
+*@date:		29.08.14
+*@version:  v.1.0
+*@summary:	Hoja de estilo 
+*@Changelog
+*@author		@date			@summary.
+*Hecter		29.08.14		Creación
+*/
+/*Configuradno el tipo de fuente*/
+
+nav {
+	position: relative;
+	width: 100%;
+}
+nav a {
+  text-align: center;
+  display: inline-block;  
+  text-decoration: none;
+}
+nav a img {
+  -webkit-mask-size: 100% 100%;
+  margin: 0.7em auto 0 auto;
+  height: 10em;
+  width: 10em;
+}
+nav a p {
+	margin: 0.5em auto 0 auto;
+}
+main {
+-webkit-box-flex: 1;
+  -webkit-mask-clip: content-box;
+  box-sizing: border-box;
+  padding: 60px 80px auto 93px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
